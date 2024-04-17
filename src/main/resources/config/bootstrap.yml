@@ -1,0 +1,13 @@
+server:
+  port: 8972
+
+application:
+  title: 'TODO Programación Archetype'
+  version: 1.0.0
+
+spring:
+  profiles:
+    active:
+      - default
+  application:
+    name: archetype-api
